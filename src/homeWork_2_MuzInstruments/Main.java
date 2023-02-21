@@ -8,7 +8,7 @@ package homeWork_2_MuzInstruments;
 public class Main {
     public static void main(String[] args) {
 
-        Instrument [] instrument1 = {(Instrument) new Guitar(7),(Instrument) new Drum(4),  (Instrument) new Trumpet(3)};
+        Instrument [] instrument1 = {new Guitar(7),new Drum(4),new Trumpet(3)};
 
         for (int i = 0; i < instrument1.length; i++) {
             instrument1[i].play();
