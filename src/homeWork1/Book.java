@@ -13,7 +13,6 @@ public class Book implements Printable {
         for (int i = 0; i < printable.length; i++) {
             if (printable[i] instanceof Book) {
                 System.out.println(printable[i] + " , ");
-                continue;
             }
 
         }

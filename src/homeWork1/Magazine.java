@@ -16,7 +16,6 @@ public class Magazine implements Printable {
         for (int i = 0; i < printable.length; i++) {
             if (printable[i] instanceof Magazine) {
                 System.out.println(printable[i] + " , ");
-                continue;
             }
 
         }
